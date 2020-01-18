@@ -1,5 +1,5 @@
 # docker-selenium
-Easy way to run side files by selenium-side-runner using docker. Inspired by nixel2007/docker-selenium-side-runner.
+Easy way to run side files by selenium-side-runner using `nixel2007/docker-selenium-side-runner` docker image.
 
 ## Quick start
 

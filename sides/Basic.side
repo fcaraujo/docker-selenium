@@ -1,0 +1,93 @@
+{
+  "id": "6a4296c2-6649-409b-8e63-454767d885a1",
+  "version": "2.0",
+  "name": "Basic",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "0bac4218-f513-4c1d-87cf-6a9d613b32f8",
+    "name": "Search for Selenium IDE",
+    "commands": [{
+      "id": "6064374e-8a42-4d19-bb98-7d4263ce3957",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1852f1bf-4e72-40c7-be52-57573673e1ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1406x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a5393de-3bc1-4654-a6c1-649c1ef305e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "276c7850-d0ec-4637-9c38-f9b80b525abe",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Selenium IDE"
+    }, {
+      "id": "4c3e1dfc-51ec-4e40-bc0b-ae764800202c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "01c7f619-52f0-460d-9e19-17aaabdf0fdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bkWMgd > .g > div > .rc .LC20lb",
+      "targets": [
+        ["css=.bkWMgd > .g > div > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE · Open source record and playback test ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "730e05cd-5805-46a5-850e-9a4b01a04a88",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.inner > .projectTitle",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5b14d69a-f7c2-4671-8b73-be1ab7d075dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0bac4218-f513-4c1d-87cf-6a9d613b32f8"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
