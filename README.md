@@ -11,4 +11,4 @@ Easy way to run side files by selenium-side-runner using `nixel2007/docker-selen
 - run `docker-compose up`
 - get result from console and `./out` directory (in json-format)
 
-![Expected Behavior](https://raw.githubusercontent.com/naando-araujo/docker-selenium/master/expected-output.png)
+![Expected Behavior](https://raw.githubusercontent.com/naando-araujo/docker-selenium/master/expected-output.jpg)
